@@ -1,4 +1,3 @@
-    
 <!-- resources/views/userregister.blade.php -->
 @extends('layouts.app')
 @section('content')
@@ -21,7 +20,7 @@
             <div class="form-group">
                 <label for="name" class="control-label col-xs-2">お名前 Name</label>
                 <div class="col-xs-5">
-                    <input type="text" class="form-control" id="name" name="name" placeholder="東京 ナナナ">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="渋谷パル子">
                 </div>
             </div>
         
