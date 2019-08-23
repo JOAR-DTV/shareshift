@@ -36,7 +36,7 @@
             </div>
             <!-- 業種 -->
             <div class="form-group">
-            <label for="industry" class="control-label col-xs-2">業種 industry</label>
+            <label for="industry" class="control-label col-xs-2">業種 Industry</label>
                 <div class="col-xs-5">
                     <select type="text" class="form-control" id="industry" name="industry">
                         <option value="コンビニ">コンビニ</option>
@@ -47,12 +47,12 @@
             </div>
             <!-- 区分 -->
             <div class="form-group">
-            <label for="division" class="control-label col-xs-2">区分 division</label>
+            <label for="division" class="control-label col-xs-2">区分 Division</label>
                 <div class="col-xs-5">
                     <select type="text" class="form-control" id="division" name="division" placeholder="">
-                        <option value="コンビニ">コンビニ</option>
-                        <option value="ファストフード">ファストフード</option>
-                        <option value="レストラン">レストラン</option>
+                        <option value="セブン">セブン-イレブン</option>
+                        <option value="ファミマ">ファミリーマート</option>
+                        <option value="ローソン">ローソン</option>
                     </select>
                 </div>
             </div>
