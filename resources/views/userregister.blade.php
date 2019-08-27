@@ -489,6 +489,7 @@
             <div class="form-group">
                         <label for="transpotation_included" class="control-label col-xs-2">交通費 Transpotation</label>
                         <div class="col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
+                        <div class="col-xs-offset-2 col-sm-6">
                             <label for="transpotation_included" class="control-label col-xs-2"></label>
                             <label class="btn btn-info active">
                             <input type="radio" class="form-control" id="transpotation_included" name="transpotation_included" value="all">全額
