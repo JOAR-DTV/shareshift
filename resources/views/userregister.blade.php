@@ -419,7 +419,7 @@
                         <option title="ibaraki" value="茨城県">茨城県</option>
                         <option title="tochigi" value="栃木県">栃木県</option>
                         <option title="gumma" value="群馬県">群馬県</option>
-                        <option title="saitama" value="埼玉県">埼玉県</option>
+                        <option title="saitama" value="���玉県">埼玉県</option>
                         <option title="chiba" value="千葉県">千葉県</option>
                         <option title="tokyo" value="東京都">東京都</option>
                         <option title="kanagawa" value="神奈川県">神奈川県</option>
@@ -487,11 +487,10 @@
             </div>
             <!-- 交通費 -->
             <div class="form-group">
-                        <label for="transpotation_included" class="control-label col-xs-2">交通費 Transpotation</label>
-                        <div class="col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
-                        <div class="col-xs-offset-2 col-sm-6">
-                            <label for="transpotation_included" class="control-label col-xs-2"></label>
-                            <label class="btn btn-info active">
+            <label for="transpotation_included" class="control-label col-xs-2">交通費 Transpotation</label>
+                        <div class="radio-inline col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
+                            <label for="transpotation_included" class=" control-label col-xs-2"></label>
+                            <label class="">
                             <input type="radio" class="form-control" id="transpotation_included" name="transpotation_included" value="all">全額
                             </label>
                             <label class="btn btn-info">
@@ -501,13 +500,11 @@
                             <input type="radio" class="form-control" id="transpotation_included" name="transpotation_included" value="none">なし
                             </label>
                         </div>
-                        </div>
             </div>
             <!-- 残業 -->
             <div class="form-group">
-                        <label for="overtime" class="control-label col-xs-2">残業 Overtime</label>
-                        <div class="col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
-                        <div class="col-xs-offset-2 col-sm-6">
+            <label for="overtime" class="control-label col-xs-2">残業 Overtime</label>
+                        <div class="radio-inline col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-info">
                             <input type="radio" class="form-control" id="overtime" name="overtime" value="true">あり
                             </label>
@@ -515,13 +512,11 @@
                             <input type="radio" class="form-control" id="overtime" name="overtime" value="false" checked="checked">なし
                             </label>
                         </div>
-                        </div>
             </div>
             <!-- 日払い -->
             <div class="form-group">
-                        <label for="daily_installment" class="control-label col-xs-2">日払い Daily installment</label>
-                        <div class="col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
-                        <div class="col-xs-offset-2 col-sm-6">
+            <label for="daily_installment" class="control-label col-xs-2">日払い Daily installment</label>
+                        <div class="radio-inline col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-info active">
                             <input type="radio" class="form-control" id="daily_installment" name="daily_installment" value="true" checked="checked">可能 Able
                             </label>
@@ -529,20 +524,17 @@
                             <input type="radio" class="form-control" id="daily_installment" name="daily_installment" value="false">不可 Not able
                             </label>
                         </div>
-                        </div>
             </div>
             <!-- 制服 -->
             <div class="form-group">
-                        <label for="outfits" class="control-label col-xs-2">制服・用具 Outfits</label>
-                        <div class="col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
-                        <div class="col-xs-offset-2 col-sm-6">
+            <label for="outfits" class="control-label col-xs-2">制服・用具 Outfits</label>
+                        <div class="radio-inline col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-info active">
                             <input type="radio" class="form-control" id="outfits" name="outfits" value="true" checked="checked">貸与可能 Lendable
                             </label>
                             <label class="btn btn-info">
                             <input type="radio" class="form-control" id="outfits" name="outfits" value="false">貸与不可 Not lendable
                             </label>
-                        </div>
                         </div>
             </div>
             <!-- 注意点 -->
@@ -613,12 +605,15 @@
                         <label class="btn btn-info active">
                             <input type="radio" name="zone" id="amonth" autocomplete="off" value="amonth" checked>1か月 / A month
                         </label>
+                        <br>
                         <label class="btn btn-info">
                             <input type="radio" name="zone" id="halfamonth" autocomplete="off" value="halfamonth">半月 / Half a month
                         </label>
+                        <br>
                         <label class="btn btn-info">
                             <input type="radio" name="zone" id="2weeks" autocomplete="off" value="2weeks">2週間 / 2 weeks
                         </label>
+                        <br>
                         <label class="btn btn-info">
                             <input type="radio" name="zone" id="aweek" autocomplete="off" value="aweek">1週間 / A week
                         </label>
