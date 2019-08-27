@@ -7,12 +7,12 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <style>
             body{
-                width:100%;
+                width:50%;
                 text-align:center;
             }
             
             #wrap{
-                width: 960px;
+                width: 480px;
                 margin: 0 auto;
                 text-align:left;
             }
@@ -487,7 +487,7 @@
             </div>
             <!-- 交通費 -->
             <div class="form-group">
-            <label for="transpotation_included" class="control-label col-xs-2">交通費 Transpotation included</label>
+            <label for="transpotation_included" class="control-label col-xs-2">交通費 Transpotation included</label><br>
                         <div class="radio-inline col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-info">
                             <input type="radio" class="form-control" id="transpotation_included" name="transpotation_included" value="all">全額
@@ -502,7 +502,7 @@
             </div>
             <!-- 残業 -->
             <div class="form-group">
-            <label for="overtime" class="control-label col-xs-2">残業 Overtime</label>
+            <label for="overtime" class="control-label col-xs-2">残業 Overtime</label><br>
                         <div class="radio-inline col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-info">
                             <input type="radio" class="form-control" id="overtime" name="overtime" value="true">あり
@@ -514,7 +514,7 @@
             </div>
             <!-- 日払い -->
             <div class="form-group">
-            <label for="daily_installment" class="control-label col-xs-2">日払い Daily installment</label>
+            <label for="daily_installment" class="control-label col-xs-2">日払い Daily installment</label><br>
                         <div class="radio-inline col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-info active">
                             <input type="radio" class="form-control" id="daily_installment" name="daily_installment" value="true" checked="checked">可能 Able
@@ -526,7 +526,7 @@
             </div>
             <!-- 制服 -->
             <div class="form-group">
-            <label for="outfits" class="control-label col-xs-2">制服・用具 Outfits</label>
+            <label for="outfits" class="control-label col-xs-2">制服・用具 Outfits</label><br>
                         <div class="radio-inline col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-info active">
                             <input type="radio" class="form-control" id="outfits" name="outfits" value="true" checked="checked">貸与可能 Lendable
