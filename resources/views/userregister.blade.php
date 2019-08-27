@@ -3620,9 +3620,9 @@
         });
     </script>
     <script type="text/javascript">
-    function close(){
-        liff.closeWindow();
-    }
+    // function close(){
+    //     liff.closeWindow();
+    // }
     </script>    
 
     
