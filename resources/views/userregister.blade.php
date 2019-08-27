@@ -369,7 +369,7 @@
             
             <!-- 店舗名 -->
             <div class="form-group">
-            <label for="store_name" class="control-label col-xs-2">店舗名 Store</label>
+            <label for="store_name" class="control-label col-xs-2">店舗 Store</label>
                 <div class="col-xs-offset-2 col-sm-6">
                     <input type="text" class="form-control" id="store_name" name="store_name" placeholder="ファミリーマート歌舞伎町さくら通り店">
                 </div>
