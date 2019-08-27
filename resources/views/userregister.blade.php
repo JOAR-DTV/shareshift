@@ -6,6 +6,18 @@
     <div class="card-body">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <style>
+            body{
+                width:100%;
+                text-align:center;
+            }
+            
+            #wrap{
+                width: 960px;
+                margin: 0 auto;
+                text-align:left;
+            }
+        </style>
+        <style>
             /* Slider */
             .slick-loading .slick-list
             {
@@ -211,128 +223,128 @@
             }
 
         </style>
-        <style>
+        /*<style>*/
             /* Slider */
-            .slick-slider
-            {
-                position: relative;
+        /*    .slick-slider*/
+        /*    {*/
+        /*        position: relative;*/
             
-                display: block;
-                box-sizing: border-box;
+        /*        display: block;*/
+        /*        box-sizing: border-box;*/
             
-                -webkit-user-select: none;
-                   -moz-user-select: none;
-                    -ms-user-select: none;
-                        user-select: none;
+        /*        -webkit-user-select: none;*/
+        /*           -moz-user-select: none;*/
+        /*            -ms-user-select: none;*/
+        /*                user-select: none;*/
             
-                -webkit-touch-callout: none;
-                -khtml-user-select: none;
-                -ms-touch-action: pan-y;
-                    touch-action: pan-y;
-                -webkit-tap-highlight-color: transparent;
-            }
+        /*        -webkit-touch-callout: none;*/
+        /*        -khtml-user-select: none;*/
+        /*        -ms-touch-action: pan-y;*/
+        /*            touch-action: pan-y;*/
+        /*        -webkit-tap-highlight-color: transparent;*/
+        /*    }*/
             
-            .slick-list
-            {
-                position: relative;
+        /*    .slick-list*/
+        /*    {*/
+        /*        position: relative;*/
             
-                display: block;
-                overflow: hidden;
+        /*        display: block;*/
+        /*        overflow: hidden;*/
             
-                margin: 0;
-                padding: 0;
-            }
-            .slick-list:focus
-            {
-                outline: none;
-            }
-            .slick-list.dragging
-            {
-                cursor: pointer;
-                cursor: hand;
-            }
+        /*        margin: 0;*/
+        /*        padding: 0;*/
+        /*    }*/
+        /*    .slick-list:focus*/
+        /*    {*/
+        /*        outline: none;*/
+        /*    }*/
+        /*    .slick-list.dragging*/
+        /*    {*/
+        /*        cursor: pointer;*/
+        /*        cursor: hand;*/
+        /*    }*/
             
-            .slick-slider .slick-track,
-            .slick-slider .slick-list
-            {
-                -webkit-transform: translate3d(0, 0, 0);
-                   -moz-transform: translate3d(0, 0, 0);
-                    -ms-transform: translate3d(0, 0, 0);
-                     -o-transform: translate3d(0, 0, 0);
-                        transform: translate3d(0, 0, 0);
-            }
+        /*    .slick-slider .slick-track,*/
+        /*    .slick-slider .slick-list*/
+        /*    {*/
+        /*        -webkit-transform: translate3d(0, 0, 0);*/
+        /*           -moz-transform: translate3d(0, 0, 0);*/
+        /*            -ms-transform: translate3d(0, 0, 0);*/
+        /*             -o-transform: translate3d(0, 0, 0);*/
+        /*                transform: translate3d(0, 0, 0);*/
+        /*    }*/
             
-            .slick-track
-            {
-                position: relative;
-                top: 0;
-                left: 0;
+        /*    .slick-track*/
+        /*    {*/
+        /*        position: relative;*/
+        /*        top: 0;*/
+        /*        left: 0;*/
             
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            .slick-track:before,
-            .slick-track:after
-            {
-                display: table;
+        /*        display: block;*/
+        /*        margin-left: auto;*/
+        /*        margin-right: auto;*/
+        /*    }*/
+        /*    .slick-track:before,*/
+        /*    .slick-track:after*/
+        /*    {*/
+        /*        display: table;*/
             
-                content: '';
-            }
-            .slick-track:after
-            {
-                clear: both;
-            }
-            .slick-loading .slick-track
-            {
-                visibility: hidden;
-            }
+        /*        content: '';*/
+        /*    }*/
+        /*    .slick-track:after*/
+        /*    {*/
+        /*        clear: both;*/
+        /*    }*/
+        /*    .slick-loading .slick-track*/
+        /*    {*/
+        /*        visibility: hidden;*/
+        /*    }*/
             
-            .slick-slide
-            {
-                display: none;
-                float: left;
+        /*    .slick-slide*/
+        /*    {*/
+        /*        display: none;*/
+        /*        float: left;*/
             
-                height: 100%;
-                min-height: 1px;
-            }
-            [dir='rtl'] .slick-slide
-            {
-                float: right;
-            }
-            .slick-slide img
-            {
-                display: block;
-            }
-            .slick-slide.slick-loading img
-            {
-                display: none;
-            }
-            .slick-slide.dragging img
-            {
-                pointer-events: none;
-            }
-            .slick-initialized .slick-slide
-            {
-                display: block;
-            }
-            .slick-loading .slick-slide
-            {
-                visibility: hidden;
-            }
-            .slick-vertical .slick-slide
-            {
-                display: block;
+        /*        height: 100%;*/
+        /*        min-height: 1px;*/
+        /*    }*/
+        /*    [dir='rtl'] .slick-slide*/
+        /*    {*/
+        /*        float: right;*/
+        /*    }*/
+        /*    .slick-slide img*/
+        /*    {*/
+        /*        display: block;*/
+        /*    }*/
+        /*    .slick-slide.slick-loading img*/
+        /*    {*/
+        /*        display: none;*/
+        /*    }*/
+        /*    .slick-slide.dragging img*/
+        /*    {*/
+        /*        pointer-events: none;*/
+        /*    }*/
+        /*    .slick-initialized .slick-slide*/
+        /*    {*/
+        /*        display: block;*/
+        /*    }*/
+        /*    .slick-loading .slick-slide*/
+        /*    {*/
+        /*        visibility: hidden;*/
+        /*    }*/
+        /*    .slick-vertical .slick-slide*/
+        /*    {*/
+        /*        display: block;*/
             
-                height: auto;
+        /*        height: auto;*/
             
-                border: 1px solid transparent;
-            }
-            .slick-arrow.slick-hidden {
-                display: none;
-            }
+        /*        border: 1px solid transparent;*/
+        /*    }*/
+        /*    .slick-arrow.slick-hidden {*/
+        /*        display: none;*/
+        /*    }*/
 
-        </style>
+        /*</style>*/
         <div class="card-title">
             店舗情報登録
         </div>
@@ -344,13 +356,13 @@
 
     <div class="your-slide-class">
 
-        <div>
+        <div id="wrap">
             <h2>プロシフトへようこそ</h2>
             <p>「プロシフト」は現役スタッフが助け合い欠員を埋めるシフト調整アプリです。</p>
         </div>
         
         <!-- 店舗情報登録 -->
-        <div>
+        <div id="wrap">
             <h2>店舗情報を入力してください。</h2>        
             <form action="{{ url('storeregister') }}" method="POST" class="form-horizontal">
             {{ csrf_field() }}
@@ -460,7 +472,7 @@
         </div>
 
         <!-- ヘルプ条件登録 -->
-        <div>
+        <div id="wrap">
             <h2>ヘルプ条件を入力してください。</h2>
             <form action="{{ url('helpregister') }}" method="POST" class="form-horizontal">
             {{ csrf_field() }}
@@ -530,7 +542,7 @@
         </div>
         
         <!-- シフトパターン登録 -->
-        <div>
+        <div id="wrap">
             <h2>ヘルプ条件を入力してください。</h2>
             <form action="{{ url('shiftregister') }}" method="POST" class="form-horizontal">
             {{ csrf_field() }}
@@ -563,7 +575,7 @@
         </div>
         
         <!-- ヘルプ条件登録 -->
-        <div>
+        <div id="wrap">
             <h2>シフト作成期間を選択してください。</h2>
             <form action="{{ url('zoneregister') }}" method="POST" class="form-horizontal">
             {{ csrf_field() }}
@@ -574,16 +586,16 @@
                         <div class="form-group">
                             <div class="btn-group btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-info active">
-                                <input type="radio" name="zone" id="amonth" autocomplete="off" value="male" checked>1か月 / A month
+                                <input type="radio" name="zone" id="amonth" autocomplete="off" value="amonth" checked>1か月 / A month
                             </label>
                             <label class="btn btn-info">
-                                <input type="radio" name="zone" id="halfamonth" autocomplete="off" value="female">半月 / Half a month
+                                <input type="radio" name="zone" id="halfamonth" autocomplete="off" value="halfamonth">半月 / Half a month
                             </label>
                             <label class="btn btn-info">
-                                <input type="radio" name="zone" id="2weeks" autocomplete="off" value="others">2週間 / 2 weeks
+                                <input type="radio" name="zone" id="2weeks" autocomplete="off" value="2weeks">2週間 / 2 weeks
                             </label>
                             <label class="btn btn-info">
-                                <input type="radio" name="zone" id="aweek" autocomplete="off" value="others">1週間 / A week
+                                <input type="radio" name="zone" id="aweek" autocomplete="off" value="aweek">1週間 / A week
                             </label>
                             </div>
                         </div>
