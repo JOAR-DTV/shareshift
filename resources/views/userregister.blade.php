@@ -223,128 +223,128 @@
             }
 
         </style>
-        /*<style>*/
-            /* Slider */
-        /*    .slick-slider*/
-        /*    {*/
-        /*        position: relative;*/
+        <style>
+             Slider 
+            .slick-slider
+            {
+                position: relative;
             
-        /*        display: block;*/
-        /*        box-sizing: border-box;*/
+                display: block;
+                box-sizing: border-box;
             
-        /*        -webkit-user-select: none;*/
-        /*           -moz-user-select: none;*/
-        /*            -ms-user-select: none;*/
-        /*                user-select: none;*/
+                -webkit-user-select: none;
+                   -moz-user-select: none;
+                    -ms-user-select: none;
+                        user-select: none;
             
-        /*        -webkit-touch-callout: none;*/
-        /*        -khtml-user-select: none;*/
-        /*        -ms-touch-action: pan-y;*/
-        /*            touch-action: pan-y;*/
-        /*        -webkit-tap-highlight-color: transparent;*/
-        /*    }*/
+                -webkit-touch-callout: none;
+                -khtml-user-select: none;
+                -ms-touch-action: pan-y;
+                    touch-action: pan-y;
+                -webkit-tap-highlight-color: transparent;
+            }
             
-        /*    .slick-list*/
-        /*    {*/
-        /*        position: relative;*/
+            .slick-list
+            {
+                position: relative;
             
-        /*        display: block;*/
-        /*        overflow: hidden;*/
+                display: block;
+                overflow: hidden;
             
-        /*        margin: 0;*/
-        /*        padding: 0;*/
-        /*    }*/
-        /*    .slick-list:focus*/
-        /*    {*/
-        /*        outline: none;*/
-        /*    }*/
-        /*    .slick-list.dragging*/
-        /*    {*/
-        /*        cursor: pointer;*/
-        /*        cursor: hand;*/
-        /*    }*/
+                margin: 0;
+                padding: 0;
+            }
+            .slick-list:focus
+            {
+                outline: none;
+            }
+            .slick-list.dragging
+            {
+                cursor: pointer;
+                cursor: hand;
+            }
             
-        /*    .slick-slider .slick-track,*/
-        /*    .slick-slider .slick-list*/
-        /*    {*/
-        /*        -webkit-transform: translate3d(0, 0, 0);*/
-        /*           -moz-transform: translate3d(0, 0, 0);*/
-        /*            -ms-transform: translate3d(0, 0, 0);*/
-        /*             -o-transform: translate3d(0, 0, 0);*/
-        /*                transform: translate3d(0, 0, 0);*/
-        /*    }*/
+            .slick-slider .slick-track,
+            .slick-slider .slick-list
+            {
+                -webkit-transform: translate3d(0, 0, 0);
+                   -moz-transform: translate3d(0, 0, 0);
+                    -ms-transform: translate3d(0, 0, 0);
+                     -o-transform: translate3d(0, 0, 0);
+                        transform: translate3d(0, 0, 0);
+            }
             
-        /*    .slick-track*/
-        /*    {*/
-        /*        position: relative;*/
-        /*        top: 0;*/
-        /*        left: 0;*/
+            .slick-track
+            {
+                position: relative;
+                top: 0;
+                left: 0;
             
-        /*        display: block;*/
-        /*        margin-left: auto;*/
-        /*        margin-right: auto;*/
-        /*    }*/
-        /*    .slick-track:before,*/
-        /*    .slick-track:after*/
-        /*    {*/
-        /*        display: table;*/
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .slick-track:before,
+            .slick-track:after
+            {
+                display: table;
             
-        /*        content: '';*/
-        /*    }*/
-        /*    .slick-track:after*/
-        /*    {*/
-        /*        clear: both;*/
-        /*    }*/
-        /*    .slick-loading .slick-track*/
-        /*    {*/
-        /*        visibility: hidden;*/
-        /*    }*/
+                content: '';
+            }
+            .slick-track:after
+            {
+                clear: both;
+            }
+            .slick-loading .slick-track
+            {
+                visibility: hidden;
+            }
             
-        /*    .slick-slide*/
-        /*    {*/
-        /*        display: none;*/
-        /*        float: left;*/
+            .slick-slide
+            {
+                display: none;
+                float: left;
             
-        /*        height: 100%;*/
-        /*        min-height: 1px;*/
-        /*    }*/
-        /*    [dir='rtl'] .slick-slide*/
-        /*    {*/
-        /*        float: right;*/
-        /*    }*/
-        /*    .slick-slide img*/
-        /*    {*/
-        /*        display: block;*/
-        /*    }*/
-        /*    .slick-slide.slick-loading img*/
-        /*    {*/
-        /*        display: none;*/
-        /*    }*/
-        /*    .slick-slide.dragging img*/
-        /*    {*/
-        /*        pointer-events: none;*/
-        /*    }*/
-        /*    .slick-initialized .slick-slide*/
-        /*    {*/
-        /*        display: block;*/
-        /*    }*/
-        /*    .slick-loading .slick-slide*/
-        /*    {*/
-        /*        visibility: hidden;*/
-        /*    }*/
-        /*    .slick-vertical .slick-slide*/
-        /*    {*/
-        /*        display: block;*/
+                height: 100%;
+                min-height: 1px;
+            }
+            [dir='rtl'] .slick-slide
+            {
+                float: right;
+            }
+            .slick-slide img
+            {
+                display: block;
+            }
+            .slick-slide.slick-loading img
+            {
+                display: none;
+            }
+            .slick-slide.dragging img
+            {
+                pointer-events: none;
+            }
+            .slick-initialized .slick-slide
+            {
+                display: block;
+            }
+            .slick-loading .slick-slide
+            {
+                visibility: hidden;
+            }
+            .slick-vertical .slick-slide
+            {
+                display: block;
             
-        /*        height: auto;*/
+                height: auto;
             
-        /*        border: 1px solid transparent;*/
-        /*    }*/
-        /*    .slick-arrow.slick-hidden {*/
-        /*        display: none;*/
-        /*    }*/
+                border: 1px solid transparent;
+            }
+            .slick-arrow.slick-hidden {
+                display: none;
+            }
 
-        /*</style>*/
+        </style>
         <div class="card-title">
             店舗情報登録
         </div>
@@ -488,34 +488,60 @@
             <!-- 交通費 -->
             <div class="form-group">
                         <label for="transpotation_included" class="control-label col-xs-2">交通費 Transpotation</label>
-                        <div class="col-xs-offset-2 col-sm-6">
+                        <div class="col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
+                            <label for="transpotation_included" class="control-label col-xs-2"></label>
+                            <label class="btn btn-info active">
                             <input type="radio" class="form-control" id="transpotation_included" name="transpotation_included" value="all">全額
+                            </label>
+                            <label class="btn btn-info">
                             <input type="radio" class="form-control" id="transpotation_included" name="transpotation_included" value="partial">一部
+                            </label>
+                            <label class="btn btn-info">
                             <input type="radio" class="form-control" id="transpotation_included" name="transpotation_included" value="none">なし
+                            </label>
+                        </div>
                         </div>
             </div>
             <!-- 残業 -->
             <div class="form-group">
                         <label for="overtime" class="control-label col-xs-2">残業 Overtime</label>
+                        <div class="col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
                         <div class="col-xs-offset-2 col-sm-6">
+                            <label class="btn btn-info">
                             <input type="radio" class="form-control" id="overtime" name="overtime" value="true">あり
+                            </label>
+                            <label class="btn btn-info active">
                             <input type="radio" class="form-control" id="overtime" name="overtime" value="false" checked="checked">なし
+                            </label>
+                        </div>
                         </div>
             </div>
             <!-- 日払い -->
             <div class="form-group">
                         <label for="daily_installment" class="control-label col-xs-2">日払い Daily installment</label>
+                        <div class="col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
                         <div class="col-xs-offset-2 col-sm-6">
-                            <input type="radio" class="form-control" id="daily_installment" name="daily_installment" value="true" checked="checked">可能 OK
-                            <input type="radio" class="form-control" id="daily_installment" name="daily_installment" value="false">不可 NG
+                            <label class="btn btn-info active">
+                            <input type="radio" class="form-control" id="daily_installment" name="daily_installment" value="true" checked="checked">可能 Able
+                            </label>
+                            <label class="btn btn-info">
+                            <input type="radio" class="form-control" id="daily_installment" name="daily_installment" value="false">不可 Not able
+                            </label>
+                        </div>
                         </div>
             </div>
             <!-- 制服 -->
             <div class="form-group">
                         <label for="outfits" class="control-label col-xs-2">制服・用具 Outfits</label>
+                        <div class="col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
                         <div class="col-xs-offset-2 col-sm-6">
+                            <label class="btn btn-info active">
                             <input type="radio" class="form-control" id="outfits" name="outfits" value="true" checked="checked">貸与可能 Lendable
+                            </label>
+                            <label class="btn btn-info">
                             <input type="radio" class="form-control" id="outfits" name="outfits" value="false">貸与不可 Not lendable
+                            </label>
+                        </div>
                         </div>
             </div>
             <!-- 注意点 -->
@@ -580,24 +606,21 @@
             <form action="{{ url('zoneregister') }}" method="POST" class="form-horizontal">
             {{ csrf_field() }}
             
-            <!-- 時給 -->
             <div class="form-group">
-                        <label for="zone" class="control-label col-xs-2"></label>
-                        <div class="form-group">
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                            <label class="btn btn-info active">
-                                <input type="radio" name="zone" id="amonth" autocomplete="off" value="amonth" checked>1か月 / A month
-                            </label>
-                            <label class="btn btn-info">
-                                <input type="radio" name="zone" id="halfamonth" autocomplete="off" value="halfamonth">半月 / Half a month
-                            </label>
-                            <label class="btn btn-info">
-                                <input type="radio" name="zone" id="2weeks" autocomplete="off" value="2weeks">2週間 / 2 weeks
-                            </label>
-                            <label class="btn btn-info">
-                                <input type="radio" name="zone" id="aweek" autocomplete="off" value="aweek">1週間 / A week
-                            </label>
-                            </div>
+            <label for="zone" class="control-label col-xs-2"></label>
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="zone" id="amonth" autocomplete="off" value="amonth" checked>1か月 / A month
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="zone" id="halfamonth" autocomplete="off" value="halfamonth">半月 / Half a month
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="zone" id="2weeks" autocomplete="off" value="2weeks">2週間 / 2 weeks
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="zone" id="aweek" autocomplete="off" value="aweek">1週間 / A week
+                        </label>
                         </div>
             </div>
             </form>
