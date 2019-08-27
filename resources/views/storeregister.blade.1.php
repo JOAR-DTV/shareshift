@@ -32,14 +32,14 @@
             <!-- 店舗名 -->
             <div class="form-group">
             <label for="store_name" class="control-label col-xs-2">店舗名 Store</label>
-                <div class="col-xs-5">
+                <div class="col-xs-offset-2 col-sm-6">
                     <input type="text" class="form-control" id="store_name" name="store_name" placeholder="ファミリーマート歌舞伎町さくら通り店">
                 </div>
             </div>
             <!-- 業種 -->
             <div class="form-group">
             <label for="industry" class="control-label col-xs-2">業種 Industry</label>
-                <div class="col-xs-5">
+                <div class="col-xs-offset-2 col-sm-6">
                     <select type="text" class="form-control" id="industry" name="industry">
                         <option value="コンビニ">コンビニ</option>
                         <!--<option value="ファストフード">ファストフード</option>-->
@@ -50,7 +50,7 @@
             <!-- 区分 -->
             <div class="form-group">
             <label for="division" class="control-label col-xs-2">区分 Division</label>
-                <div class="col-xs-5">
+                <div class="col-xs-offset-2 col-sm-6">
                     <select type="text" class="form-control" id="division" name="division" placeholder="">
                         <option value="セブン">セブン-イレブン</option>
                         <option value="ファミマ">ファミリーマート</option>
@@ -61,14 +61,14 @@
             <!-- TEL -->
             <div class="form-group">
             <label for="phone_number" class="control-label col-xs-2">電話番号 Phone number</label>
-                <div class="col-xs-5">
+                <div class="col-xs-offset-2 col-sm-6">
                     <input type="text" class="form-control" id="phone_number" name="phone_number" placeholder="0521234567">
                 </div>
             </div>
             <!-- 住所 -->
             <div class="form-group">
             <label for="adress" class="control-label col-xs-2">住所 Adress</label>
-                <div class="col-xs-5">
+                <div class="col-xs-offset-2 col-sm-6">
                     <select name="pref" id="pref" onChange="setMenuAddressItem(0,this[this.selectedIndex].attributes['title'].value)">
                         <option title="0" value="0" selected>----</option>
                         <option title="hokkaido" value="北海道">北海道</option>
@@ -119,7 +119,7 @@
                         <option title="kagoshima" value="鹿児島県">鹿児島県</option>
                         <option title="okinawa" value="沖縄県">沖縄県</option>
                     </select>
-                    <div class="col-xs-5">
+                    <div class="col-xs-offset-2 col-sm-6">
                         <input type="text" class="form-control" id="name" name="name" placeholder="ファミリーマート歌舞伎町さくら通り店">
                     </div>
                 </div>
@@ -142,7 +142,7 @@
             <!-- 時給 -->
             <div class="form-group">
                         <label for="wage" class="control-label col-xs-2">時給 Wage</label>
-                        <div class="col-xs-5">
+                        <div class="col-xs-offset-2 col-sm-6">
                             <input type="text" class="form-control" id="wage" name="wage">円
                             <p>ヘルプスタッフへの特別時給となります。</p>
                         </div>
@@ -150,7 +150,7 @@
             <!-- 交通費 -->
             <div class="form-group">
                         <label for="transpotation_included" class="control-label col-xs-2">交通費 Transpotation</label>
-                        <div class="col-xs-5">
+                        <div class="col-xs-offset-2 col-sm-6">
                             <input type="radio" class="form-control" id="transpotation_included" name="transpotation_included" value="all">全額
                             <input type="radio" class="form-control" id="transpotation_included" name="transpotation_included" value="partial">一部
                             <input type="radio" class="form-control" id="transpotation_included" name="transpotation_included" value="none">なし
@@ -159,7 +159,7 @@
             <!-- 残業 -->
             <div class="form-group">
                         <label for="overtime" class="control-label col-xs-2">残業 Overtime</label>
-                        <div class="col-xs-5">
+                        <div class="col-xs-offset-2 col-sm-6">
                             <input type="radio" class="form-control" id="overtime" name="overtime" value="true">あり
                             <input type="radio" class="form-control" id="overtime" name="overtime" value="false" checked="checked">なし
                         </div>
@@ -167,7 +167,7 @@
             <!-- 日払い -->
             <div class="form-group">
                         <label for="daily_installment" class="control-label col-xs-2">日払い Daily installment</label>
-                        <div class="col-xs-5">
+                        <div class="col-xs-offset-2 col-sm-6">
                             <input type="radio" class="form-control" id="daily_installment" name="daily_installment" value="true" checked="checked">可能 OK
                             <input type="radio" class="form-control" id="daily_installment" name="daily_installment" value="false">不可 NG
                         </div>
@@ -175,7 +175,7 @@
             <!-- 制服 -->
             <div class="form-group">
                         <label for="outfits" class="control-label col-xs-2">制服・用具 Outfits</label>
-                        <div class="col-xs-5">
+                        <div class="col-xs-offset-2 col-sm-6">
                             <input type="radio" class="form-control" id="outfits" name="outfits" value="true" checked="checked">貸与可能 Lendable
                             <input type="radio" class="form-control" id="outfits" name="outfits" value="false">貸与不可 Not lendable
                         </div>
@@ -183,14 +183,14 @@
             <!-- 注意点 -->
             <div class="form-group">
                         <label for="remarks" class="control-label col-xs-2">備考 Remarks</label>
-                        <div class="col-xs-5">
+                        <div class="col-xs-offset-2 col-sm-6">
                             <input type="text" class="form-control" id="remarks" name="remarks">
                         </div>
             </div>
             <!-- 一言メッセージ -->
             <div class="form-group">
                         <label for="comment" class="control-label col-xs-2">ひとこと Comment</label>
-                        <div class="col-xs-5">
+                        <div class="col-xs-offset-2 col-sm-6">
                             <input type="text" class="form-control" id="comment" name="comment">
                         </div>
             </div>
@@ -212,21 +212,21 @@
             <!-- パターン名 -->
             <div class="form-group">
                         <label for="pattern" class="control-label col-xs-2">パターン名 Pattern</label>
-                        <div class="col-xs-5">
+                        <div class="col-xs-offset-2 col-sm-6">
                             <input type="text" class="form-control" id="pattern" name="pattern" placeholder="日勤">
                         </div>
             </div>
             <!-- 説明 -->
             <div class="form-group">
                         <label for="option" class="control-label col-xs-2">説明 Option</label>
-                        <div class="col-xs-5">
+                        <div class="col-xs-offset-2 col-sm-6">
                             <input type="text" class="form-control" id="option" name="option" placeholder="">
                         </div>
             </div>
             <!-- 時間帯 -->
             <div class="form-group">
                         <label for="shift_time" class="control-label col-xs-2">残業 Overtime</label>
-                        <div class="col-xs-5">
+                        <div class="col-xs-offset-2 col-sm-6">
                             <input type="time" class="form-control" id="shift_time_start" name="shift_time_start">～<input type="time" class="form-control" id="shift_time_end" name="shift_time_end">
                         </div>
             </div>
@@ -245,7 +245,7 @@
             <!-- 時給 -->
             <div class="form-group">
                         <label for="zone" class="control-label col-xs-2"></label>
-                        <div class-"form-group">
+                        <div class="form-group">
                             <div class="btn-group btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-info active">
                                 <input type="radio" name="zone" id="amonth" autocomplete="off" value="male" checked>1か月 / A month
@@ -276,9 +276,6 @@
             infinite: false,
             });
         });
-        function close(){
-        liff.closeWindow();
-        }
     </script>
     
 @endsection
