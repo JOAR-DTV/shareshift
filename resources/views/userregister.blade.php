@@ -487,7 +487,7 @@
             </div>
             <!-- 交通費 -->
             <div class="form-group">
-            <label for="transpotation_included" class="control-label col-xs-2">交通費 Transpotation</label>
+            <label for="transpotation_included" class="control-label col-xs-2">交通費 Transpotation included</label>
                         <div class="radio-inline col-xs-offset-2 btn-group btn-group-toggle" data-toggle="buttons">
                             <label for="transpotation_included" class=" control-label col-xs-2"></label>
                             <label class="">
